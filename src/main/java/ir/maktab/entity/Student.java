@@ -21,5 +21,5 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String studentName;
-    
+
 }
