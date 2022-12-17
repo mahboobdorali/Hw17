@@ -24,8 +24,9 @@ public class StudentCourseRating {
     @ManyToOne
     private Course course;
     @CreationTimestamp
+    @Temporal(value = TemporalType.TIMESTAMP)
     private Date timeStamp;
     private String comment;
-    private int rating;
+    private double rating;
 
 }
