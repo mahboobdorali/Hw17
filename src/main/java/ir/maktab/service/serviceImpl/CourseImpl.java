@@ -1,4 +1,4 @@
 package ir.maktab.service.serviceImpl;
 
-public class CourceImpl {
+public class CourseImpl {
 }
