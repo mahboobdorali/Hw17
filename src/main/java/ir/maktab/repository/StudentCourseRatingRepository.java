@@ -19,7 +19,7 @@ public class StudentCourseRatingRepository {
     public void persist(StudentCourseRating studentCourseRating){
         EntityManager em = Config.emf.createEntityManager();
         em.getTransaction().begin();
-        em.persist(studentCourseRating);
+        em.merge(studentCourseRating);
         em.getTransaction().commit();
         em.close();
     }

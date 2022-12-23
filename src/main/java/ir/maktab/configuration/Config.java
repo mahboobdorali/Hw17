@@ -5,5 +5,4 @@ import javax.persistence.Persistence;
 
 public class Config {
     public static EntityManagerFactory emf = Persistence.createEntityManagerFactory("PU");
-
 }

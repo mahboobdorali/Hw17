@@ -28,5 +28,4 @@ public class StudentCourseRating {
     private Date timeStamp;
     private String comment;
     private double rating;
-
 }
